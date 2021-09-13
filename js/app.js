@@ -17,7 +17,7 @@ const showProducts = (products) => {
       </div>
       <h3>${product.title}</h3>
       <h5>Category: ${product.category}</h5>
-      <p>Rating: <span style="color: gray">${product.rating.rate}</span>
+      <p>Rating: <span style="color:#7757FF">${product.rating.rate}</span>
       <span class="ms-1" style="color:#FFA41C">
       <i class="fas fa-star"></i>
       <i class="fas fa-star"></i>

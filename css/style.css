@@ -28,10 +28,10 @@ body {
     box-shadow: 4px 4px 7px gray;
     border-radius: 10px;
     background-color: #FEEAE9;
-    border: 1px solid black;
     color: black;
     margin-bottom: 25px;
     height: 100%;
+    border: none;
 }
 
 .product-image {
