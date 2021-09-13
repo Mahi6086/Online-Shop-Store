@@ -2,12 +2,21 @@ body {
     overflow-x: hidden;
     font-family: 'Space Grotesk', sans-serif;
     height: 100vh;
+    background: #035e4f
+}
+
+h1 {
+    font-size: 40px;
+    color: #A38282;
+}
+
+#quick {
+    font-size: 45px;
 }
 
 #all-products {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* border: 1px solid black; */
     text-align: center;
     width: 100%;
     margin: auto;
@@ -18,20 +27,18 @@ body {
 .single-product {
     padding: 10px;
     transition: 0.6s;
-    background-color: black;
-    color: whitesmoke;
-    border: 1px solid red;
+    background-color: white;
+    color: black;
     border-radius: 10px;
 }
 
 .single-product:hover {
-    box-shadow: 4px 4px 7px gray;
+    box-shadow: 5px 5px 8px #035e4f;
     border-radius: 10px;
     background-color: #FEEAE9;
     color: black;
-    margin-bottom: 25px;
-    height: 100%;
-    border: none;
+    transition: all .3s linear;
+    transform: scale(110%);
 }
 
 .product-image {
