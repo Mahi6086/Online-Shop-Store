@@ -69,7 +69,7 @@ const setInnerText = (id, value) => {
 // update delivery charge and total Tax
 const updateTaxAndCharge = () => {
     const priceConverted = getInputValue("price");
-    // const priceUpdated = parseFloat(priceConverted).toFixed(2);
+
     if (priceConverted > 200) {
         setInnerText("delivery-charge", 30);
         setInnerText("total-tax", parseFloat(priceConverted * 0.2).toFixed(2));
